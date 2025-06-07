@@ -4,9 +4,9 @@
 // 1. Write a program to take “city” name as input from user. If
 // user enters “Karachi”, welcome the user like this:
 // “Welcome to city of lights”
-
+  
 var userInPut = prompt("Enter Your city Name");
-
+  
 if (userInPut === "karachi") {
     alert(userInPut + " Weelcom! to The City of Lights");
 }
@@ -313,3 +313,11 @@ else {
 
     alert('Edher Problem e problem eww ter ko nhi maloom kiya')
 }
+
+
+
+
+
+
+
+/////////////////////////////////////////          Done

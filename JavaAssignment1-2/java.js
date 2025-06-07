@@ -1,3 +1,5 @@
+// ALERTS
+
 // 1. Write a script to greet your website visitor using JS alert
 // box.
 alert("Welcome to our website!");
@@ -5,7 +7,7 @@ alert("Welcome to our website!");
 // 2. Write a script to display following message on your web
 // page:
 alert("Error! Please Enter A Valid Password")
-
+   
 // 3. Write a script to display following message on your web
 // page: (Hint : Use line break)
 alert("Wellcome to Js Land... \n Happy Coding!")
@@ -43,9 +45,6 @@ alert("Hello... i can run Js through my web browser´s console ")
 
 
 // Assignment 2
-
-
-
 
 // VARIABLES FOR STRINGS
 
@@ -105,3 +104,6 @@ document.write("<h1> Hello! This is displayed in the browser.</h1>");
 
 var design = " “▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬” ";
 alert(design)
+
+
+////////////////////////////////////////////// Done

@@ -5,7 +5,7 @@
 
 
 // 1. Declare a variable called age & assign to it your age. Show
-// your age in an alert box.
+// your age in an alert box.     
 
 var myAge = 16;
 alert( "Iam "  +  "" +  myAge  +  ""  +  "years old");
@@ -49,7 +49,8 @@ document.write(visitorName+ " ordered " + quantity + " " + productTitile+ " on X
 
 
 
-// /////////////////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////      Done
+
 
 
 
@@ -101,15 +102,16 @@ document.write(" Variable names should not be JS keywords ");
 
 
 
-
+//////////////////////////////////       Done
 
 
 
 
 //Assignment 5 
 
-
 // MATH EXPRESSIONS
+
+
 
  // 1. Write a program to take a number in a variable, do the
 // required arithmetic to display the following result in your

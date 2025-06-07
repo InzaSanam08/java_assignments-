@@ -1,3 +1,47 @@
+// Assignment 3
+
+// VARIABLES FOR NUMBERS
+
+
+
+// 1. Declare a variable called age & assign to it your age. Show
+// your age in an alert box.
+
+var myAge = 16;
+alert( "Iam "  +  "" +  myAge  +  ""  +  "years old");
+
+
+// 2. Declare & initialize a variable to keep track of how many
+// times a visitor has visited a web page. Show his/her
+// number of visits on your web page. For example: “You
+// have visited this site N times”.
+
+alert("you have visited this site 14 time ")
+
+
+
+// 3. Declare a variable called birthYear & assign to it your
+// birth year. Show the following message in your browser:
+
+
+var birthDay = '2008';
+document.write("My birth year is: " + birthDay);
+
+// 4. A visitor visits an online clothing store
+// www.xyzClothing.com . Write a script to store in variables
+// the following information:
+// a. Visitor’s name
+// b. Product title
+// c. Quantity i.e. how many products a visitor wants to
+// order
+// Show the following message in your browser: “John
+// Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
+
+var visitorName = "Inza Sanam";
+var productTitile = "xyz";
+var quantity = 3;
+
+document.write(visitorName+ " ordered " + quantity + " " + productTitile+ " on XYZ Clothing store.");
 
 
 
@@ -5,14 +49,14 @@
 
 
 
+// /////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
 
-
+// Assignment 4
 
 // VARIABLE NAMES: LEGAL & ILLEGAL
-
 
 
 // 1. Declare 3 variables in one statement.
@@ -46,8 +90,6 @@ var camelCaseVar;
 // d) Variable names are case _________
 // e) Variable names should not be JS _________
 
-
-
 document.write(" <h1>“Rules for naming JS variables”</h1> ");
 
 document.write(" Variable names can only contain, numbers, $ and. For example: Smy_1stVariable ");
@@ -56,7 +98,6 @@ document.write(" Variable names are case sensitive  ");
 document.write(" Variable names should not be JS keywords ");
 
 
-// document.write(" <h1>“Rules for naming JS variables”</h1> \n  Variable names can only contain, numbers, $ and. For example: Smy_1stVariable \n Variable must begin with a l
 
 
 
@@ -65,16 +106,7 @@ document.write(" Variable names should not be JS keywords ");
 
 
 
-
-
-
-
-
-
-
-
-
-
+//Assignment 5 
 
 
 // MATH EXPRESSIONS
@@ -96,47 +128,4 @@ document.write(" Variable names should not be JS keywords ");
 
     document.write("The value of a-- is: " + a-- + "<br>");
     document.write("Now the value of a is: " + a + "<br>");
-
-
-// 2. What will be the output in variables a, b & result after
-// execution of the following script:
-// var a = 2,b = 1;
-// var result = --a - --b + ++b + b--;
-//                1 - 0  +  0  +  0   
-// Explain the output at each stage:
-// --a;
-// --a - --b;
-// --a - --b + ++b;
-// --a - --b + ++b + b--; 
-
-
-
-
-
-// 3. Write a program that takes input a name from user &
-// greet the user.
-
-
-var userInPut = prompt("Enter your Name");
-alert("Hello!" + userInPut + "Weelcome!!...")
-
-
-// 5. Write a program to take input a number from user &
-// display it’s multiplication table on your browser. If user
-// does not enter a new number, multiplication table of 5
-// should be displayed by default.
-// 6. Take
-// a) Take three subjects name from user and store them in 3
-// different variables.
-// b) Total marks for each subject is 100, store it in another
-// variable.
-// c) Take obtained marks for first subject from user and
-// stored it in different variable.
-// d) Take obtained marks for remaining 2 subjects from user
-// and store them in variables.
-// e) Now calculate total marks and percentage and show the
-// result in browser like this.(Hint: user tab
-
-
-
 

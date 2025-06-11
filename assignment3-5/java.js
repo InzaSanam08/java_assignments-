@@ -257,6 +257,7 @@ var shippingCharges = 100;
 
 var totalCost = (item1Price * orderedQuantity1) + (priceOfItem2 * orderedQuantity1) + shippingCharges;
 
+document.write("<h1> Shopping Cart </h1> " + "<br>");
 
 document.write("Price Of Item 1 is " + item1Price + "<br>");
 
@@ -279,8 +280,10 @@ var obtainedMarks = prompt("Enter your obtained marks");
 
 var percentage = ( obtainedMarks / totalMarks ) * 100;
 
+document.write("<h1> Mark Sheet</h1> " + "<br>");
+
 document.write("Total Marks: " + totalMarks + "<br>");
-document.write("Obtained Marks: " + obtainedMarks + "<br>");
+document.write("Marks Obtained: " + obtainedMarks + "<br>");
 document.write("Percentage: " + percentage + "%");
 
 // 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
@@ -288,3 +291,11 @@ document.write("Percentage: " + percentage + "%");
 // Perform all calculations in a single expression.
 // (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
 // and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+var totalPKRCrrency = (10*104)+(25*28);
+
+document.write("<h1> Crrency in PKR </h1> " + "<br>");
+
+document.write("Total Crrency in PKR : " + totalPKRCrrency + "<br>");
+
+

@@ -1,59 +1,59 @@
-// MATH EXPRESSIONS
+// // MATH EXPRESSIONS
 
-// 1. Write a program to take a number in a variable, do the
-// required arithmetic to display the following result in your
-// browser:
-var a = 10;        
-document.write("The value of a is: " + a + "<br><br>");
+// // 1. Write a program to take a number in a variable, do the
+// // required arithmetic to display the following result in your
+// // browser:
+// var a = 10;        
+// document.write("The value of a is: " + a + "<br><br>");
 
-document.write("The value of ++a is: " + ++a + "<br>");
-document.write("Now the value of a is: " + a + "<br><br>");
+// document.write("The value of ++a is: " + ++a + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
 
-document.write("The value of a++ is: " + a++ + "<br>");
-document.write("Now the value of a is: " + a + "<br><br>");
+// document.write("The value of a++ is: " + a++ + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
 
-document.write("The value of --a is: " + --a + "<br>");
-document.write("Now the value of a is: " + a + "<br><br>");
+// document.write("The value of --a is: " + --a + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
 
-document.write("The value of a-- is: " + a-- + "<br>");
-document.write("Now the value of a is: " + a + "<br>");
-
-
-
-// 2. What will be the output in variables a, b & result after
-// execution of the following script:
-// var a = 2, b = 1;
-// var result = --a - --b + ++b + b--;
-// Explain the output at each stage:
-// --a;
-// --a - --b;
-// --a - --b + ++b;
-// --a - --b + ++b + b--;
-
-// 1
-// 1 - 0
-// 1 - 0  + 1
-// 1 - 0  + 1 + 1
+// document.write("The value of a-- is: " + a-- + "<br>");
+// document.write("Now the value of a is: " + a + "<br>");
 
 
 
+// // 2. What will be the output in variables a, b & result after
+// // execution of the following script:
+// // var a = 2, b = 1;
+// // var result = --a - --b + ++b + b--;
+// // Explain the output at each stage:
+// // --a;
+// // --a - --b;
+// // --a - --b + ++b;
+// // --a - --b + ++b + b--;
 
-// 3. Write a program that takes input a name from user &
-// greet the user.
+// // 1
+// // 1 - 0
+// // 1 - 0  + 1
+// // 1 - 0  + 1 + 1
 
 
-var userName = prompt("Enter Your Name");
-
-alert("Aslam u Alaikum" + "" + userName)
 
 
-//5. Write a program to take input a number from user &
-// display it’s multiplication table on your browser. If user
-// does not enter a new number, multiplication table of 5
-// should be displayed by default.
+// // 3. Write a program that takes input a name from user &
+// // greet the user.
 
 
-var userInPut = prompt("Enter your fav number");
+// var userName = prompt("Enter Your Name");
+
+// alert("Aslam u Alaikum" + "" + userName)
+
+
+// //5. Write a program to take input a number from user &
+// // display it’s multiplication table on your browser. If user
+// // does not enter a new number, multiplication table of 5
+// // should be displayed by default.
+
+
+// var userInPut = prompt("Enter your fav number");
 
 
 
@@ -69,15 +69,15 @@ var userInPut = prompt("Enter your fav number");
 // e) Now calculate total marks and percentage and show the
 // result in browser like this.(Hint: user table)
 
-var subj1 = prompt("Enter subject 1 ");
-var subj2 = prompt("Enter subject 2 ");
-var subj3 = prompt("Enter subject 3 ");
+var subj1 = prompt("Enter subject Name 1 ");
+var subj2 = prompt("Enter subject Name 2 ");
+var subj3 = prompt("Enter subject Name 3 ");
 
 var totalMarksPerSubject = 100;
 
-var obtainedMark1 = +prompt("Enter subject 1 Marks ");
-var obtainedMark2 = +prompt("Enter subject 2 Marks ");
-var obtainedMark3 = +prompt("Enter subject 3 Marks ");
+var obtainedMark1 = +prompt("Enter " + subj1 + " Marks ");
+var obtainedMark2 = +prompt("Enter " + subj2 + " Marks ");
+var obtainedMark3 = +prompt("Enter " + subj3 + " Marks ");
 
 var totalObtained = subj1 + subj3 + subj3;
 
@@ -87,7 +87,7 @@ var percentage = (totalObtained / totalMarks) * 100;
 
 
 document.write("<h1> Subject Total Marks Obtained Marks Percentage </h1>");
-document.write(subj1 + "100" + obtainedMark1 + percentage);
+document.write(subj1 + "100" + obtainedMark1 + percentage + "%");
 document.write(subj2 + totalMarksPerSubject + obtainedMark1 + percentage);
 document.write(subj3 + totalMarksPerSubject + obtainedMark1 + percentage);
 

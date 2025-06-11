@@ -8,7 +8,7 @@
 // your age in an alert box.     
 
 var myAge = 16;
-alert( "Iam "  +  "" +  myAge  +  ""  +  "years old");
+alert( "Iam " +  myAge  +  "  years old");
 
 
 // 2. Declare & initialize a variable to keep track of how many
@@ -108,26 +108,159 @@ document.write(" Variable names should not be JS keywords ");
 
 
 //Assignment 5 
-
 // MATH EXPRESSIONS
 
+// 1. Write a program that take two numbers & add them in a
+// new variable. Show the result in your browser.
+
+var num1 = 4;
+var num2 = 2;
+var result = num1 + num2;
+document.write("Sum Of " + num1 + " and " + num2 + " is " + result + "<br>");
+
+// 2. Repeat task1 for subtraction, multiplication, division &
+// modulus.
+
+// Addition
+
+var sum = num1 + num2;
+document.write("Sum Of " + num1 + " and " + num2 + " is " + sum + "<br>");
+
+// Subtraction
+var subtraction = num1 - num2;
+document.write("Subtraction Of " + num1 + " and " + num2 + " is " + subtraction + "<br>");
+
+// multiplication
+var product = num1 * num2;
+document.write("product of " + num1 + " and " + num2 + " is " + product + "<br>");
+
+// modulus
+var remainder = num1 % num2;
+document.write("remainder of " + num1 + " and " + num2 + " is " + remainder + "<br>");
 
 
- // 1. Write a program to take a number in a variable, do the
-// required arithmetic to display the following result in your
-// browser:
- var a = 10;
-    document.write("The value of a is: " + a + "<br><br>");
 
-    document.write("The value of ++a is: " + ++a + "<br>");
-    document.write("Now the value of a is: " + a + "<br><br>");
+// 3. Do the following using JS Mathematic Expressions
 
-    document.write("The value of a++ is: " + a++ + "<br>");
-    document.write("Now the value of a is: " + a + "<br><br>");
+// a. Declare a variable.
+var value;
 
-    document.write("The value of --a is: " + --a + "<br>");
-    document.write("Now the value of a is: " + a + "<br><br>");
+// b. Show the value of variable in your browser like “Value after variable declaration is: ??”.
+document.write("Value after variable declaration is: " + value + "<br>")
 
-    document.write("The value of a-- is: " + a-- + "<br>");
-    document.write("Now the value of a is: " + a + "<br>");
+// c. Initialize the variable with some number.
+
+var number = 4;
+
+// d. Show the value of variable in your browser like “Initial value: 5”.
+
+document.write("Initial value: " + number + "<br>")
+
+// e. Increment the variable.
+
+number++
+
+// f. Show the value of variable in your browser like “Value after increment is: 6”.
+
+document.write("Value after increment is: " + number + "<br>");
+
+// g. Add 7 to the variable.
+
+number += 7;
+
+
+// h. Show the value of variable in your browser like “Valueafter addition is: 13”.
+
+document.write("Value after addition is: " + number + "<br>");
+
+// i. Decrement the variable.
+
+number--
+// j. Show the value of variable in your browser like “Value after decrement is: 12”.
+document.write("Value after decrement is: " + number + "<br>");
+
+// k. Show the remainder after dividing the variable’s value by 3.
+
+var remainder = number % 3;
+
+// l. Output : “The remainder is : 0”.
+document.write("The remainder is : " + remainder + "<br>");
+
+
+
+
+
+// 4. Cost of one movie ticket is 600 PKR. Write a script to
+// store
+// ticket price in a variable & calculate the cost of buying 5
+// tickets
+// to a movie. Example output:
+
+
+var ticketPrice = 600;
+var buyingTickets = 5;
+
+var result = ticketPrice * buyingTickets;
+
+ document.write( "Total Cost to buy 5 tickets to a  movie is " + result + " PKR <br>");
+
+
+//  5. Write a script to display multiplication table of any
+// number in your browser. E.g
+
+var inPutNumber= +prompt("Enter Number For table");
+
+document.write(inPutNumber + " x 1 = " + (inPutNumber * 1 )+ "<br>" );
+document.write(inPutNumber + " x 2 = " + (inPutNumber * 2) + "<br>");
+document.write(inPutNumber + " x 3 = " + (inPutNumber * 3) + "<br>");
+document.write(inPutNumber + " x 4 = " + (inPutNumber * 4) + "<br>");
+document.write(inPutNumber + " x 5 = " + (inPutNumber * 5) + "<br>");
+document.write(inPutNumber + " x 6 = " + (inPutNumber * 6) + "<br>");
+document.write(inPutNumber + " x 7 = " + (inPutNumber * 7) + "<br>");
+document.write(inPutNumber + " x 8 = " + (inPutNumber * 8) + "<br>");
+document.write(inPutNumber + " x 9 = " + (inPutNumber * 9) + "<br>");
+document.write(inPutNumber + " x 10 = "+(inPutNumber * 10) + "<br>");
+
+
+// 6. The Temperature Converter: It’s hot out! Let’s make a
+// converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+
+// Conversion Formulae:
+
+var celcius = 30;
+var ConvertToFahrenheit = (celcius - 5 / 9) * 32;
+ document.write(celcius + "°C is " + fahrenheit + "°F<br>");
+
+var fahrenheit = 83;
+var ConvertToCelcius = (fahrenheit - 32) * 5 / 9;
+ document.write(fahrenheit + "°F is " + celcius + "°C<br>");
+
+
+//  7. Write a program to implement checkout process of a
+// shopping cart system for an e-commerce website. Store
+// the following in variables
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+
+
+
+
+
+
+// 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser
+
+var totalMarks = prompt("Enter your total marks");
+var obtainedMarks = prompt("Enter your total marks");
+
+var percentage = (totalMarks )
+
 

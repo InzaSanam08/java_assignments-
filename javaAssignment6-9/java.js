@@ -30,6 +30,10 @@ document.write("Now the value of a is: " + a + "<br>");
 // --a - --b + ++b;
 // --a - --b + ++b + b--;
 
+// 1
+// 1 - 0
+// 1 - 0  + 1
+// 1 - 0  + 1 + 1
 
 
 
@@ -89,4 +93,4 @@ document.write(subj3 + totalMarksPerSubject + obtainedMark1 + percentage);
 
 
 
-/////////////////////////////////////////    Done
+// /////////////////////////////////////////    Done

@@ -201,8 +201,6 @@ else {
 
 
 
-
-
 // 8. Write a program to check whether the given number is
 // divisible by 3. Show the message to the user if the number
 // is divisible by 3.
@@ -260,8 +258,6 @@ else if (temp > 10) {
 else {
     alert("It's very cold");
 }
-
-
 
 
 

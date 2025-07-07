@@ -79,16 +79,16 @@ const { use } = require("react");
 // document.write("Original message: " + message + "<br>");
 // document.write("After replacement: " + replaceMessage);
 
-// // 9. Write a program that converts a string “472” to a number
-// // 472. Display the values & types in your browser.
+// 9. Write a program that converts a string “472” to a number
+// 472. Display the values & types in your browser.
     
-// // string value
+// string value
 // var num1 = '272';
 // var type1 = typeof (num1);
 // document.write("Value: " + num1 + "<br>");
 // document.write("Type : " + type1 + "<br>");
 //  // convert to number
-// var num2 = parseInt(num1);
+// var num2 = Number(num1);
 // var type2 = typeof (num2);
 // document.write("Value: " + num2 + "<br>");
 // document.write("Type : " + type2 + "<br>");
@@ -162,7 +162,7 @@ const { use } = require("react");
 // if (userInput === a) {
 //     alert("Yes, " + userInput + " is available at index " + a.indexOf(userInput) + " in our bakery.");
 // } else {
-//     alert("Sorry, " + userInput + " is not available in our bakery.");
+//     alert("We are Sorry, " + userInput + " is not available in our bakery.");
 // }
 
 

@@ -48,9 +48,12 @@ document.write('Coin value: ' + (coin === 1 ? 'Heads' : 'Tails') + '<br>');
 // 6. Write a program that shows a random number between 1 and 100 in your browser.
 var randomNumber = Math.floor(Math.random() * 100) + 1;
 document.write('Random number between 1 and 100: ' + randomNumber + '<br>');
+
 // 7. Write a program that asks the user about his weight.
+
 var weight = prompt('Enter your weight in kilograms (e.g., 65kg, 70.5kg)');
 document.write('The weight of user is: ' + weight + '<br>');
+
 // 8. Write a program that stores a random secret number
 // between 1 and 10 in a variable. Ask the user to input a number
 // between 1 and 10. If user input matches the secret number,       
@@ -68,9 +71,12 @@ if (parseInt(userGuess) === secretNumber) {
 
 // 9. Write a program that converts the number of days to
 // seconds. E.g. 2 days = 2 * 24 * 60 * 60 = 172800 seconds
+
 var days = prompt('Enter number of days');
 var seconds = days * 24 * 60 * 60;
 document.write(days + ' days = ' + seconds + ' seconds<br>');
+
+
 // 10. Write a program that calculates the age of a user in
 // years, months, and days. Ask the user to input their birth date
 // and the current date. Display the age in years, months, and days.

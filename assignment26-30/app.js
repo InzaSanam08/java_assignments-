@@ -58,6 +58,8 @@ document.write('The weight of user is: ' + weight + '<br>');
 // between 1 and 10 in a variable. Ask the user to input a number
 // between 1 and 10. If user input matches the secret number,       
 // congratulate the user. If not, show the correct answer.
+
+
 var secretNumber = Math.floor(Math.random() * 10) + 1;
 var userGuess = prompt('Guess the secret number between 1 and 10');
 if (parseInt(userGuess) === secretNumber) {

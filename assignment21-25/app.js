@@ -182,11 +182,29 @@ const { use } = require("react");
 // var university = “University of Karachi”;
 // Display the elements of array in your browser.
 
+var university = "University of Karachi";
+var array = university.split(" ");
+document.write("Array elements:<br>");
+for (var i = 0; i < array.length; i++) {
+    document.write(array[i] + "<br>");
+}
 
 // 17. Write a program to display the last character of a user
 // input.
 
+var userInput = prompt("Enter a string:");
+var lastCharacter = userInput.charAt(userInput.length - 1);
+document.write("Last character: " + lastCharacter + "<br>");
 
 // 18. You have a string “The quick brown fox jumps over the
 // lazy dog”. Write a program to count number of
 // occurrences of word “the” in given string.
+var str = "The quick brown fox jumps over the lazy dog";
+var count = 0;
+var words = str.toLowerCase().split(" ");
+for (var i = 0; i < words.length; i++) {
+    if (words[i] === "the") {
+        count++;
+    }
+}   
+document.write("Number of occurrences of 'the': " + count + "<br>");

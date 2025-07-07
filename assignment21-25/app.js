@@ -104,63 +104,66 @@ const { use } = require("react");
 // // 11. Write a program that takes user input. Convert and
 // // show the input in title case.
 
-// var user = prompt('Enter any text ')
-// var titleCase = user.charAt(0).toUpperCase() + user.slice(1).toLowerCase();
-// document.write('User InPut : ' + user + " <br>");
-// document.write('Upper Case : ' + titleCase + " <br>");
+// // var user = prompt('Enter any text ')
+// // var titleCase = user.charAt(0).toUpperCase() + user.slice(1).toLowerCase();
+// // document.write('User InPut : ' + user + " <br>");
+// // document.write('Upper Case : ' + titleCase + " <br>");
 
-// 12. Write a program that converts the variable num to
-// string.
+// // 12. Write a program that converts the variable num to
+// // string.
+// // var num = 35.36 ;
+// // Remove the dot to display “3536” display in your browser.
+
 // var num = 35.36 ;
-// Remove the dot to display “3536” display in your browser.
+// // conver to string
+// var str = num.toString();
+// // remove dot
+// var replace = str.replace("." , "")
 
-var num = 35.36 ;
-// conver to string
-var str = num.toString();
-// remove dot
-var replace = str.replace("." , "")
-
-document.write('Number : ' + num + " <br>");
-document.write('Result : ' + replace + " <br>");
+// document.write('Number : ' + num + " <br>");
+// document.write('Result : ' + replace + " <br>");
 
 
 
-// 13. Write a program to take user input and store username
-// in a variable. If the username contains any special symbol
-// among [@ . , !], prompt the user to enter a valid username.
-// For character codes of [@ .
+// // 13. Write a program to take user input and store username
+// // in a variable. If the username contains any special symbol
+// // among [@ . , !], prompt the user to enter a valid username.
+// // For character codes of [@ .
 
-// Note:
-// ASCII code of ! is 33
-// ASCII code of , is 44
-// ASCII code of . is 46
-// ASCII code of @ is 64
+// // Note:
+// // ASCII code of ! is 33
+// // ASCII code of , is 44
+// // ASCII code of . is 46
+// // ASCII code of @ is 64
 
+// var username = prompt("Enter your username:");
+// var invalidChars = ['@', '.', ',', '!'];
 
+// for (var i = 0; i < invalidChars.length; i++) {
+//     if (username.includes(invalidChars[i])) {
+//         alert("Please enter a valid username.");
+//         break;
+//     }
+// }
 
-// 14. You have an array
-// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
-// Write a program to enable “search by user input” in an
-// array. After searching, prompt the user whether the given
-// item is found in the list or not.
-// Note: Perform case insensitive search. Whether the user
-// enters cookie, Cookie, COOKIE or coOkIE, program
-// should inform about its availability. Example:
+// // 14. You have an array
+// // A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// // Write a program to enable “search by user input” in an
+// // array. After searching, prompt the user whether the given
+// // item is found in the list or not.
+// // Note: Perform case insensitive search. Whether the user
+// // enters cookie, Cookie, COOKIE or coOkIE, program
+// // should inform about its availability. Example:
 
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
+// userInput = userInput.toLowerCase();
 
-
-
-
-var a = ["cake", "apple pie", "cookie", "chips", "patties"];
-var userInput = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
-userInput = userInput.toLowerCase();
-
-if (userInput === a) {
-    
-    
-} else {
-    
-}
+// if (userInput === a) {
+//     alert("Yes, " + userInput + " is available at index " + a.indexOf(userInput) + " in our bakery.");
+// } else {
+//     alert("Sorry, " + userInput + " is not available in our bakery.");
+// }
 
 
 // 15. Write a program to take password as an input from user.
@@ -171,3 +174,19 @@ if (userInput === a) {
 // d. It should not contain any special character.
 // e. It should not contain any space.
 // f. It should not contain any character in uppercase.
+
+
+
+// 16. Write a program to convert the following string to an
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+
+// 17. Write a program to display the last character of a user
+// input.
+
+
+// 18. You have a string “The quick brown fox jumps over the
+// lazy dog”. Write a program to count number of
+// occurrences of word “the” in given string.

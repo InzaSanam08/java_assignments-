@@ -64,10 +64,10 @@ alert('Hello ' + fullName + '! Welcome to our website.');
 // 7. Write a program to replace the “Hyder” to “Islam” in the
 // word “Hyderabad” and display the result in your browser.
 
-// var city = 'Hyderabad';
-// var replaceName = city.replace( 'Hyder','Islam');
-// document.write('City: ' + city + ' <br>');
-// document.write('after Replacement: ' + replaceName + ' <br>')
+var city = 'Hyderabad';
+var replaceName = city.replace( 'Hyder','Islam');
+document.write('City: ' + city + ' <br>');
+document.write('after Replacement: ' + replaceName + ' <br>')
 
 // 8. Write a program to replace all occurrences of “and” in the
 // string with “&” and display the result in your browser.

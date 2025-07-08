@@ -1,13 +1,13 @@
- // 1. Write a program that takes two user inputs for first and
- // last name using prompt and merge them in a new variable
- // titled fullName. Greet the user using his full name.
+// 1. Write a program that takes two user inputs for first and
+// last name using prompt and merge them in a new variable
+// titled fullName. Greet the user using his full name.
 var firstName = prompt("Enter your first name:");
 var lastName = prompt("Enter your last name:");
 
 var fullName = firstName + '' + lastName
 
- alert('Hello ' + fullName + '! Welcome to our website.');
- // 2. Write a program to take a user input about his favorite
+alert('Hello ' + fullName + '! Welcome to our website.');
+// 2. Write a program to take a user input about his favorite
 // mobile phone model. Find and display the length of user
 // input in your browser
 
@@ -61,7 +61,7 @@ alert('Hello ' + fullName + '! Welcome to our website.');
 // word “Hyderabad” and display the result in your browser.
 
 var city = 'Hyderabad';
-var replaceName = city.replace( 'Hyder','Islam');
+var replaceName = city.replace('Hyder', 'Islam');
 document.write('City: ' + city + ' <br>');
 document.write('after Replacement: ' + replaceName + ' <br>')
 
@@ -83,7 +83,7 @@ var num1 = '272';
 var type1 = typeof (num1);
 document.write("Value: " + num1 + "<br>");
 document.write("Type : " + type1 + "<br>");
- // convert to number
+// convert to number
 var num2 = Number(num1);
 var type2 = typeof (num2);
 document.write("Value: " + num2 + "<br>");
@@ -110,11 +110,11 @@ document.write('Upper Case : ' + titleCase + " <br>");
 // var num = 35.36 ;
 // Remove the dot to display “3536” display in your browser.
 
-var num = 35.36 ;
+var num = 35.36;
 // conver to string
 var str = num.toString();
 // remove dot
-var replace = str.replace("." , "")
+var replace = str.replace(".", "")
 
 document.write('Number : ' + num + " <br>");
 document.write('Result : ' + replace + " <br>");
@@ -131,6 +131,23 @@ document.write('Result : ' + replace + " <br>");
 // ASCII code of , is 44
 // ASCII code of . is 46
 // ASCII code of @ is 64
+
+var username = prompt("Enter your username:");
+var isValid = true;
+
+for (var i = 0; i < username.length; i++) {
+    var charCode = username.charCodeAt(i);
+
+    if (charCode === 33 || charCode === 44 || charCode === 46 || charCode === 64) {
+        alert("Please enter a valid username.");
+        isValid = false;
+        break;
+    }
+}
+
+if (isValid) {
+    alert("Username accepted: " + username);
+}
 
 
 // 14. You have an array
@@ -186,3 +203,4 @@ document.write("Last character: " + lastCharacter + "<br>");
 // 18. You have a string “The quick brown fox jumps over the
 // lazy dog”. Write a program to count number of
 // occurrences of word “the” in given string.
+

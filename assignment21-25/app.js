@@ -1,19 +1,15 @@
-// // 1. Write a program that takes two user inputs for first and
-// // last name using prompt and merge them in a new variable
-// // titled fullName. Greet the user using his full name.
-
-const { use } = require("react");
-
-
+ // 1. Write a program that takes two user inputs for first and
+ // last name using prompt and merge them in a new variable
+ // titled fullName. Greet the user using his full name.
 var firstName = prompt("Enter your first name:");
 var lastName = prompt("Enter your last name:");
 
 var fullName = firstName + '' + lastName
 
-// // alert('Hello ' + fullName + '! Welcome to our website.');
-// // 2. Write a program to take a user input about his favorite
-// // mobile phone model. Find and display the length of user
-// // input in your browser
+ alert('Hello ' + fullName + '! Welcome to our website.');
+ // 2. Write a program to take a user input about his favorite
+// mobile phone model. Find and display the length of user
+// input in your browser
 
 var userPhone = prompt('Enter your Favorite phone');
 
@@ -64,10 +60,10 @@ alert('Hello ' + fullName + '! Welcome to our website.');
 // 7. Write a program to replace the “Hyder” to “Islam” in the
 // word “Hyderabad” and display the result in your browser.
 
-// var city = 'Hyderabad';
-// var replaceName = city.replace( 'Hyder','Islam');
-// document.write('City: ' + city + ' <br>');
-// document.write('after Replacement: ' + replaceName + ' <br>')
+var city = 'Hyderabad';
+var replaceName = city.replace( 'Hyder','Islam');
+document.write('City: ' + city + ' <br>');
+document.write('after Replacement: ' + replaceName + ' <br>')
 
 // 8. Write a program to replace all occurrences of “and” in the
 // string with “&” and display the result in your browser.

@@ -5,7 +5,7 @@
 // c. floor value of the number
 // d. ceil value of the number
 
-var user = prompt('Enter Number');
+var user = parseFloat(prompt('Enter Number'));
 
 document.write('Number: ' + user + '<br>');
 document.write('Round off value: ' + Math.round(user) + '<br>');

@@ -58,4 +58,4 @@ var arr = [
     new MyObject(50, "Account", "Savings", true, 5000),
 ];
 
-console.log(arr[1]);
+console.log(arr);
